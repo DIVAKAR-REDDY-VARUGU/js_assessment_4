@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    margin: 10px 0%;
+}
+#section-wraper{
+    display:flex;
+    /* border: 1px solid black; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.left-side-wrapper{
+    /* border: 1px solid black; */
+    width: 68%;
+}
+.left-side-wrapper img{
+    width: 100%;
+}
+.right-side-wrapper{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-left: 30px;
+}
+.right-side-content{
+    margin-bottom: 40px;
+}
+.content-main-heading{
+    margin:0%;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -2px;
+}
+.brand-title{
+    margin:0%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.product-price
+{
+    margin:0%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.product-description-title{
+    margin:0%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.product-price span{
+    color: #009688;
+    font-weight: bold;
+}
+
+
+.product-description-title{
+    margin:0%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.product-description{
+    margin:0%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #86939e;
+}
+
+.product-preview-title{
+    margin:0%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.preview-cards-wrapper{
+    margin-top: 20px;
+    display:flex;
+}
+.preview-card{
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+#add-tocard-btn{
+    display:inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+}
+#add-tocard-btn:hover{
+    box-shadow: 0 2px 10px rgb(0 0 0 / 70%);
+}
